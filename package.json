@@ -1,0 +1,24 @@
+{
+  "name": "librarium",
+  "version": "1.0.0",
+  "description": "A final course project",
+  "source": "./src/index.html",
+  "homepage": "https://julia-arseniuk.github.io/librarium/",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/*.html --public-url /librarium/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "gh-pages": "^6.1.0",
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6"
+  }
+}

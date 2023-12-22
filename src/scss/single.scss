@@ -1,0 +1,48 @@
+.single{
+    .single-img{
+        min-height: 150px;
+    }
+    img{
+        display: inline-block;
+        width: 100%;
+        vertical-align: super;
+        border: 1px solid lightgray;
+        padding: 1rem;
+    }
+    td{
+        padding: 0.25rem 0;
+        vertical-align: super;
+    }
+    tr:not(:last-child) > td:first-child{
+        font-weight: 600;
+    }
+    .ebook{
+        // display: flex;
+        text-align: center;
+        padding-top: 1rem;
+        border-bottom: 1px solid lightgray;
+        span{
+            font-size: 36px;
+        }
+    }
+    .buy{
+        text-align: center;
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 1rem;
+        .buy-btn{
+            display: block;
+            min-width: 150px;
+        }
+    }
+}
+.modal-footer{
+    a, button{
+        min-width: 180px;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+    .footer-buttons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

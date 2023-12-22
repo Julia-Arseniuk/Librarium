@@ -1,0 +1,29 @@
+header{
+        min-height: 100px;
+        background-color: #f6f7f7;
+        box-shadow: 0 3px 5px -1px #c9cfd7;
+        border-bottom: 1px solid lightgray;
+    }
+.heading{
+    padding: 2rem 0.5rem 1rem;
+    h3{
+        font-family: 'Cinzel', serif;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+    a.my-library-ref{
+        color: inherit;
+    }
+}
+.row{
+    width: 100%;
+}
+
+@media (width >= 576) {
+    .heading {
+        padding: 2rem 0.5rem;
+            h3{
+                margin: 0;
+            }
+    }
+}

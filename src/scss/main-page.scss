@@ -1,0 +1,35 @@
+.main-page{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bookshelves.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0px;
+        bottom: 0;
+        background-color: #795548;
+        opacity: 0.6;
+    }
+    h1{
+        font-family: 'Cinzel', serif;
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 700;
+        color: white;
+    }
+}
+.main-form{
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    button{
+        border-color: #ddefff;
+        color: #ddefff;
+    }
+}
