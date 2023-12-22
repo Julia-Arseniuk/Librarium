@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "A final course project",
   "source": "./src/index.html",
-  "homepage": "https://julia-arseniuk.github.io/parcel-project/",
+  "homepage": "https://julia-arseniuk.github.io/librarium/",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/*.html --public-url /parcel-project/",
+    "build": "parcel build src/*.html --public-url /librarium/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
