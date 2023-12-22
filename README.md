@@ -11,7 +11,7 @@ With Librarium you can:
 
 I used HTML, SASS, JavaScript, Bootstrap, some plugins, AJAX, and Parcel for building the project. 
 
-You can visit wesite [Librarium](https://julia-arseniuk.github.io/parcel-project/)
+You can visit wesite [Librarium](https://julia-arseniuk.github.io/librarium/)
 
 ## Note
 Since I was faced with the quota theft, I am forced to limit the use of the API key to a website or IP address.
